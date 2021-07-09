@@ -13,11 +13,41 @@ html {
 
 body {
   background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.789), rgba(104, 104, 104, 0.727)),
-    url("/images/backgroundmedium.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.891), rgba(104, 104, 104, 0.44)),
+    url("/images/fullbackground.jpg");
   background-attachment: fixed;
-  background-size: 150% 100%;
-  background-position: 50% 50%;
-    min-height: 100vh;
+  background-size: 130% 100%;
+  background-position: 40% 50%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-top: -12rem;
+  margin-bottom: 4rem;
+}
+
+.countdown-caption {
+  font-size: 2rem;
+  margin-left: 1.3rem;
+}
+
+.container {
+  display: flex;
+}
+
+.container > * {
+  margin: 1rem 1rem;
+}
+
+.container div p {
+  font-size: 6rem;
+  line-height: 1.5;
+  margin: 0 2rem;
+  font-weight: 700;
+}
