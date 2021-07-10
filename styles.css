@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 
 * {
   padding: 0;
@@ -13,8 +14,8 @@ html {
 
 body {
   background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.891), rgba(104, 104, 104, 0.44)),
-    url("/images/fullbackground.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.44)),
+    url("/images/backgroundmedium.jpg");
   background-attachment: fixed;
   background-size: 130% 100%;
   background-position: 40% 50%;
@@ -28,26 +29,36 @@ body {
 h1 {
   font-size: 5rem;
   font-weight: 600;
-  margin-top: -12rem;
+  margin-top: -6rem;
   margin-bottom: 4rem;
-}
-
-.countdown-caption {
-  font-size: 2rem;
-  margin-left: 1.3rem;
 }
 
 .container {
   display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: brown;
+  border-radius: 30px;
+  width: 86%;
+  padding-left: 2rem;
 }
 
-.container > * {
+.container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 1rem 1rem;
+  font-family: 'Wallpoet', cursive;
+  width: 100%;
 }
 
 .container div p {
   font-size: 6rem;
   line-height: 1.5;
-  margin: 0 2rem;
+  margin: 0 1.5rem;
   font-weight: 700;
+}
+
+.container div span {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
 }
