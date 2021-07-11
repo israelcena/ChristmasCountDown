@@ -1,6 +1,6 @@
 # The Christmas CountDown
 
-[imgTheChristmasCounter](./theChristmasCounter.jpg)
+![imgTheChristmasCounter](./theChristmasCounter.jpg)
 
 ## The project site
 [click-me](https://www.contagemparaonatal.israelcena.com.br/)
