@@ -1,6 +1,6 @@
 # The Christmas CountDown
 
-[imgTheChristmasCouter](./theChristmasCounter.jpg)
+[imgTheChristmasCounter](./theChristmasCounter.jpg)
 
 This project is only for training my skills
 
